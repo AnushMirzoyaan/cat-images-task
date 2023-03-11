@@ -1,0 +1,21 @@
+.imagesContainer {
+    background-color: #a3cfa7;
+    /* opacity: 45%; */
+    height: max-content;
+    margin-top: 10px;
+    display: grid;
+    /* padding: 15px 0; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px 0px;
+}
+
+.imagesContainer img {
+    width: 33%;
+    height: auto;
+    min-width: 200px;
+    max-width: 300px;
+    height: auto;
+    padding-left: 20px;
+    border-radius: 5px;
+}

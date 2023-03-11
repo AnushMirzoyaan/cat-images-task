@@ -1,0 +1,26 @@
+.sidebar img {
+    width: 50px;
+}
+
+button {
+    background: none;
+    color: #ff81c0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #a3cfa7;
+    border: 1px solid #ff81c0;
+    color: whitesmoke;
+    transition: 0.5s ease
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+}
